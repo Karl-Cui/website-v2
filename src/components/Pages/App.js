@@ -6,6 +6,8 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 function App() {
   return (
     <div>
+      {/* switch with actual page when done */}
+      <UnderConstruction/>
     </div>
   );
 }
