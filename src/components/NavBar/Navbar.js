@@ -1,7 +1,9 @@
-class NavBar extends React.Component {
-    render() {
-      return (
-        <p>hello world</p>
-      );
-    }
-  }
+import React from 'react';
+
+function NavBar() {
+    return (
+       <div></div>
+    );
+}
+
+export default NavBar;
