@@ -13,15 +13,20 @@ function NavBar() {
                     </Link>
                 </div>
 
+                {/* To fill up 3 middle columns... I really should implement this a different way */}
+                <div/>
+                <div/>
+                <div/>
+
                 <Link exact to="/projects" style={{textDecoration: 'none'}}>
                     <div class="link">projects</div>
                 </Link>
 
-                <Link exact to="/" style={{textDecoration: 'none'}}>
+                <Link exact to="/blog" style={{textDecoration: 'none'}}>
                     <div class="link">blog</div>
                 </Link>
-                
-                <Link exact to="/" style={{textDecoration: 'none'}}>
+
+                <Link exact to="/contact" style={{textDecoration: 'none'}}>
                     <div class="link">contact</div>
                 </Link>
 

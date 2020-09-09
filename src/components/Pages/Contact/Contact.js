@@ -13,4 +13,4 @@ function Contact() {
     );
 }
 
-export default Blog;
+export default Contact;
