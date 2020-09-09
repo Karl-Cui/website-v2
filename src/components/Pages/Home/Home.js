@@ -2,8 +2,8 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 
 import NavBar from '../../NavBar/Navbar';
-// import Footer from '../../Footer/Footer';
 import './Home.css';
+import '../page.css';
 
 function Home() {
     return (
@@ -13,7 +13,7 @@ function Home() {
             {/* Self intro */}
             <div class="content">
                 <p>Hello.</p>
-                <p>I'm a Canadian software engineer who likes to build cool things. I am an avid fan of short scary stories, a casual good-but-not-amazing gamer, a tormented perfectionist, and a coffee and chess addict.</p>
+                <p>I'm a Canadian software engineer with an odd sense of humor who likes to build cool things. I am an avid fan of short scary stories, a casual good-but-not-amazing gamer, a tormented perfectionist, and a coffee and chess addict.</p>
                 <p>Welcome to my site.</p>
             </div>
 
@@ -48,7 +48,6 @@ function Home() {
                 </div>
             </div>
 
-            {/* <Footer/> */}
         </div>
     );
 }

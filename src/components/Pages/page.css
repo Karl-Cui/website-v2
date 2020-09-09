@@ -1,0 +1,16 @@
+.content {
+    width: calc(50vw + 200px);
+    height: 30vh;
+    min-height: 250px;
+
+    margin: auto;
+    box-sizing: border-box;
+    padding: 30px;
+
+    font-size: 24px;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: normal;
+}
