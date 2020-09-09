@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../../NavBar/Navbar';
-import Footer from '../../Footer/Footer';
+// import Footer from '../../Footer/Footer';
 
 
 function Contact() {
@@ -8,7 +8,7 @@ function Contact() {
         <div>
             <NavBar/>
 
-            <Footer/>
+            {/* <Footer/> */}
         </div>
     );
 }

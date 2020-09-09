@@ -1,17 +1,32 @@
 .content {
     width: calc(50vw + 200px);
-    height: 40vh;
-    min-height: 300px;
+    height: 30vh;
+    min-height: 250px;
 
     margin: auto;
     box-sizing: border-box;
-    padding: 20px;
+    padding: 30px;
+
+    font-size: 24px;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: normal;
 }
 
 .column {
     float: left;
-    text-align: center;
     width: 33.33%;
+    box-sizing: border-box;
+    padding: 30px;
+
+    color: black;
+    text-align: center;
+}
+
+.column:hover {
+    color: #696969;
 }
   
 /* Clear floats after the columns */

@@ -10,7 +10,7 @@ function UnderConstruction() {
 
                 <img class="construction-img" src={construction} alt="construction"/>
 
-                <p>Karl is hard at work building and revising the site.</p>
+                <p>Karl is hard at work revising the site.</p>
             </header>            
         </div>
     );
