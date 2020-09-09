@@ -1,0 +1,22 @@
+.content {
+    width: calc(50vw + 200px);
+    height: 40vh;
+    min-height: 300px;
+
+    margin: auto;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

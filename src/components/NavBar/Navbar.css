@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #282c34;
+    height: 100px;   
+}
+
+.navbar-div {
+    width: calc(50vw + 200px);
+    height: 100%;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.navbar-div .logo-wrapper {
+    justify-self: left;
+}
+
+.logo {
+    font: 'Segoe UI';
+    font-size: 50px;
+    color: lightgray;
+}
+
+.link {
+    font: 'Segoe UI';
+    font-size: 20px;
+    color: lightgray;
+}
