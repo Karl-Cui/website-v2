@@ -19,17 +19,23 @@ function NavBar() {
                         <div/>
                         <div/>
 
-                        <Link exact to="/projects" style={{textDecoration: 'none'}}>
-                            <div class="link">projects</div>
-                        </Link>
+                        <div class="link-wrapper">
+                            <Link exact to="/projects" style={{textDecoration: 'none'}}>
+                                <div class="link">projects</div>
+                            </Link>
+                        </div>
 
-                        <Link exact to="/blog" style={{textDecoration: 'none'}}>
-                            <div class="link">blog</div>
-                        </Link>
+                        <div class="link-wrapper">
+                            <Link exact to="/blog" style={{textDecoration: 'none'}}>
+                                <div class="link">blog</div>
+                            </Link>
+                        </div>
 
-                        <Link exact to="/contact" style={{textDecoration: 'none'}}>
-                            <div class="link">contact</div>
-                        </Link>
+                        <div class="link-wrapper">
+                            <Link exact to="/contact" style={{textDecoration: 'none'}}>
+                                <div class="link">contact</div>
+                            </Link>
+                        </div>
 
                 </div>
             </div>

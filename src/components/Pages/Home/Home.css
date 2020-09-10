@@ -1,20 +1,26 @@
 .column {
-    float: left;
-    width: 33.33%;
-    box-sizing: border-box;
-    padding: 30px;
-
     color: black;
     text-align: center;
+    padding-bottom: 2em;
 }
 
 .column:hover {
     color: #696969;
 }
-  
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
+
+.text-link {
+    text-decoration: none;
+}
+
+.content-split {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2em;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content-split {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }

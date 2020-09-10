@@ -21,10 +21,7 @@
     justify-items: center;
 }
 
-.navbar-div .logo-wrapper {
-    justify-self: left;
-    min-width: 180px;
-}
+/* Links */
 
 .logo {
     font: 'Segoe UI';
@@ -36,6 +33,10 @@
     color: white;
 }
 
+.logo-wrapper {
+    min-width: 180px;
+}
+
 .link {
     font: 'Segoe UI';
     font-size: 20px;
@@ -44,4 +45,9 @@
 
 .link:hover {
     color: white;
+}
+
+.link-wrapper {
+    min-width: 80px;
+    text-align: center;
 }

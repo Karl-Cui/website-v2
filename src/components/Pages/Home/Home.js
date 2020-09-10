@@ -19,10 +19,10 @@ function Home() {
 
             {/* Content is split into 3 sections */}
             <div class="content">
-                <div class="row">
+                <div class="content-split">
 
                     {/* Projects that I am working on, link to resume, portfolio stuffs */}
-                    <Link exact to="/projects">
+                    <Link class="text-link" exact to="/projects">
                         <div class="column">
                             <h1>Projects</h1>
                             My resume, and some of the cool projects I worked on.
@@ -30,7 +30,7 @@ function Home() {
                     </Link>
 
                     {/* My blog */}
-                    <Link exact to="/blog">
+                    <Link class="text-link" exact to="/blog">
                         <div class="column">
                             <h1>Blog</h1>
                             My personal blog where I muse about anything and everything.
@@ -38,7 +38,7 @@ function Home() {
                     </Link>
 
                     {/* Links and Contact */}
-                    <Link exact to="/contact">
+                    <Link class="text-link" exact to="/contact">
                         <div class="column">
                             <h1>Contact</h1>
                             My direct contact and links to find me online.
