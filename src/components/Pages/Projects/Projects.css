@@ -1,0 +1,58 @@
+#projects-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* Project plate */
+
+.project {
+    padding: 1em;
+
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 1em;
+}
+
+.project:hover {
+    background-color: lightgray;
+}
+
+.projects-section-title {
+    text-align: center;
+}
+
+.project img {
+    display: block;
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.project h2 {
+    font-weight: normal;
+}
+
+.project {
+    font-size: calc(12 + 2em);
+}
+
+/* Project plate on small screens */
+
+@media only screen and (max-width: 1024px) {
+    .project {
+        padding: 1em;
+
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1em;
+    }
+
+    .project img {
+        display: block;
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

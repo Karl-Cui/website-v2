@@ -13,7 +13,7 @@ function Home() {
             {/* Self intro */}
             <div class="content">
                 <p>Hello.</p>
-                <p>I'm a Canadian software engineer with an odd sense of humor who likes to build cool things. I am an avid fan of short scary stories, a casual good-but-not-amazing gamer, a tormented perfectionist, and a coffee and chess addict.</p>
+                <p>I am a Canadian software engineer with an odd sense of humor who likes to build cool things. I am an avid fan of short scary stories, a casual good-but-not-amazing gamer, a tormented perfectionist, and a coffee and chess addict.</p>
                 <p>Welcome to my site.</p>
             </div>
 
@@ -22,7 +22,7 @@ function Home() {
                 <div class="content-split">
 
                     {/* Projects that I am working on, link to resume, portfolio stuffs */}
-                    <Link class="text-link" exact to="/projects">
+                    <Link exact to="/projects">
                         <div class="column">
                             <h1>Projects</h1>
                             My resume, and some of the cool projects I worked on.
@@ -30,7 +30,7 @@ function Home() {
                     </Link>
 
                     {/* My blog */}
-                    <Link class="text-link" exact to="/blog">
+                    <Link exact to="/blog">
                         <div class="column">
                             <h1>Blog</h1>
                             My personal blog where I muse about anything and everything.
@@ -38,7 +38,7 @@ function Home() {
                     </Link>
 
                     {/* Links and Contact */}
-                    <Link class="text-link" exact to="/contact">
+                    <Link exact to="/contact">
                         <div class="column">
                             <h1>Contact</h1>
                             My direct contact and links to find me online.

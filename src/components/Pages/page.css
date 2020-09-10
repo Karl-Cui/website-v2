@@ -6,10 +6,15 @@
     box-sizing: border-box;
     padding: 20px;
 
-    font-size: 24px;
+    font-size: calc(12px + 1vmin);
 }
 
 .content h1 {
     font-size: 48px;
     font-weight: normal;
+}
+
+a {
+    color: black;
+    text-decoration: none;
 }

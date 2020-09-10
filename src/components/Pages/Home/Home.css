@@ -8,17 +8,13 @@
     color: #696969;
 }
 
-.text-link {
-    text-decoration: none;
-}
-
 .content-split {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2em;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
     .content-split {
         display: grid;
         grid-template-columns: 1fr;
