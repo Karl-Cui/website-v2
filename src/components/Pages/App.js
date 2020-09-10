@@ -15,7 +15,6 @@ function App() {
             {/* Site is under construction! */}
             <Route exact path="/blog" component={UnderConstruction}/>
             <Route exact path="/projects" component={UnderConstruction}/>
-            <Route exact path="/contact" component={UnderConstruction}/>
 
             <Route exact path="/" component={Home}/>
             <Route exact path="/projects" component={Projects}/>

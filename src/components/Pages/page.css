@@ -1,6 +1,6 @@
 .content {
     width: calc(55vw + 80px);
-    min-height: 250px;
+    min-height: 150px;
 
     margin: auto;
     box-sizing: border-box;

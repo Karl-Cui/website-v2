@@ -1,0 +1,19 @@
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.logo-card {
+    width: 10vw;
+}
+
+.logo-card img {
+    width: 100%;
+    min-width: 50px;
+}
+
+.logo-card img:hover {
+    background-color: lightgray;
+}
