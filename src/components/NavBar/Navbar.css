@@ -11,7 +11,7 @@
 }
 
 .navbar-div {
-    width: calc(50vw + 200px);
+    width: calc(55vw + 80px);
     height: 100%;
     margin: auto;
 
@@ -55,13 +55,22 @@
 @media only screen and (max-width: 512px) {
     .logo {
         font: 'Segoe UI';
-        font-size: 30px;
+        font-size: 35px;
         color: lightgray;
+    }
+
+    .logo-wrapper {
+        min-width: 132px;
     }
 
     .link {
         font: 'Segoe UI';
         font-size: 14px;
         color: lightgray;
+    }
+
+    .link-wrapper {
+        min-width: 56px;
+        text-align: center;
     }
 }
