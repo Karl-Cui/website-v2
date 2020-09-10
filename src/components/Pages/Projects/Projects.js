@@ -49,7 +49,8 @@ function Projects() {
 
                             <div>
                                 <h2>2D to 3D Reconstruction</h2>
-                                <p>We had to do a project for a course, but what we ended up making is much more than just a course project. We created 3D meshes from 2D images using a mix of machine learning and 3D point cloud registration and meshing algorithms.</p>
+                                <p>We had to do a project for a course, but what we ended up making is much more than just a course project.</p>
+                                <p>We created 3D meshes from 2D images using a mix of machine learning and 3D point cloud registration and meshing algorithms.</p>
                             </div>
                         </div>
                     </a>
