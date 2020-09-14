@@ -32,8 +32,8 @@
     font-weight: normal;
 }
 
-.project {
-    font-size: calc(12 + 2em);
+.project p {
+    font-size: 0.85em;
 }
 
 /* Project plate on small screens */
