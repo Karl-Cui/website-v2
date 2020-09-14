@@ -12,6 +12,7 @@
 .logo-card img {
     width: 100%;
     min-width: 50px;
+    padding: 10%;
 }
 
 .logo-card img:hover {
