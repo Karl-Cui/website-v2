@@ -7,9 +7,25 @@ import GitHubLogo from '../../../assets/logos/github.png';
 import LinkedInLogo from '../../../assets/logos/linkedin.png';
 import LichessLogo from '../../../assets/logos/lichess.png';
 
-class Contact extends React.Component {
-    
+class Contact extends React.Component {   
+
+    constructor(props) {
+        super(props);
+        this.logos = [
+            {url: "https://github.com/Karl-Cui", img: GitHubLogo, alt: "GitHub"},
+            {url: "https://www.linkedin.com/in/karl-cui/", img: LinkedInLogo, alt: "LinkedIn"},
+            {url: "https://lichess.org/@/pattrik", img: LichessLogo, alt: "Lichess"}
+        ];
+
+    }
+
     render() {
+        const listLogos = this.logos.map((logo) =>  
+            <div class="logo-card">
+                <a href={logo.url} target="_blank" rel="noopener noreferrer"><img src={logo.img} alt={logo.alt}/></a>
+            </div>
+        ); 
+
         return (
             <div>
                 <NavBar/>
@@ -23,17 +39,7 @@ class Contact extends React.Component {
                 <div class="content">
                     <div class="logo-grid">
     
-                        <div class="logo-card">
-                            <a href="https://github.com/Karl-Cui" target="_blank" rel="noopener noreferrer"><img src={GitHubLogo} alt="GitHub"/></a>
-                        </div>
-    
-                        <div class="logo-card">
-                            <a href="https://www.linkedin.com/in/karl-cui/" target="_blank" rel="noopener noreferrer"><img src={LinkedInLogo} alt="LinkedIn"/></a>
-                        </div>
-    
-                        <div class="logo-card">
-                            <a href="https://lichess.org/@/pattrik" target="_blank" rel="noopener noreferrer"><img src={LichessLogo} alt="Lichess"/></a>
-                        </div>
+                        {listLogos}
     
                     </div>
                 </div>
