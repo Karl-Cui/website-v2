@@ -13,8 +13,9 @@ function App() {
     <Router>
         <Switch>
             {/* Site is under construction! */}
-            <Route exact path="/blog" component={UnderConstruction}/>
+            {/* <Route exact path="/blog" component={UnderConstruction}/> */}
 
+            {/* Site is not under construction */}
             <Route exact path="/" component={Home}/>
             <Route exact path="/projects" component={Projects}/>
             <Route exact path="/blog" component={Blog}/>
