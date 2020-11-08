@@ -12,9 +12,9 @@ class Contact extends React.Component {
     constructor(props) {
         super(props);
         this.logos = [
-            {url: "https://github.com/Karl-Cui", img: GitHubLogo, alt: "GitHub"},
-            {url: "https://www.linkedin.com/in/karl-cui/", img: LinkedInLogo, alt: "LinkedIn"},
-            {url: "https://lichess.org/@/pattrik", img: LichessLogo, alt: "Lichess"}
+            {url: "https://github.com/Karl-Cui", img: GitHubLogo, alt: "GitHub icon"},
+            {url: "https://www.linkedin.com/in/karl-cui/", img: LinkedInLogo, alt: "LinkedIn icon"},
+            {url: "https://lichess.org/@/pattrik", img: LichessLogo, alt: "Lichess icon"}
         ];
 
     }
