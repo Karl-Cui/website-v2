@@ -1,0 +1,25 @@
+#sidebar {
+    float: left;
+    width: 200px;
+    position: fixed;
+}
+
+#sidebar ul {
+    list-style-type: none;
+}
+
+#sidebar li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#sidebar li:hover {
+    color: #696969;
+}
+
+#blogPosts {
+    float: right;
+    width: calc(100% - 250px);
+}
+
+/* TODO: handle small screens */
