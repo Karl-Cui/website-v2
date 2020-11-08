@@ -2,18 +2,22 @@ import React from 'react';
 import construction from '../../../assets/under_construction.jpg';
 import './UnderConstruction.css';
 
-function UnderConstruction() {
-    return (
-        <div>
-            <header class="construction">
-                <p>This page is currently under construction!</p>
+class UnderConstruction extends React.Component {
 
-                <img class="construction-img" src={construction} alt="construction"/>
+    render() {
+        return (
+            <div>
+                <header class="construction">
+                    <p>This page is currently under construction!</p>
 
-                <p>Karl is hard at work revising the site.</p>
-            </header>            
-        </div>
-    );
+                    <img class="construction-img" src={construction} alt="construction"/>
+
+                    <p>Karl is hard at work revising the site.</p>
+                </header>            
+            </div>
+        );
+    }
+    
 }
 
 export default UnderConstruction;

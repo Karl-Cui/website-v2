@@ -8,21 +8,25 @@ import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
 import UnderConstruction from './UnderConstruction/UnderConstruction';
 
-function App() {
-  return (
-    <Router>
-        <Switch>
-            {/* Site is under construction! */}
-            {/* <Route exact path="/blog" component={UnderConstruction}/> */}
+class App extends React.Component {
 
-            {/* Site is not under construction */}
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/projects" component={Projects}/>
-            <Route exact path="/blog" component={Blog}/>
-            <Route exact path="/contact" component={Contact}/>
-        </Switch>
-    </Router>
-  );
+    render() {
+        return (
+            <Router>
+                <Switch>
+                    {/* Site is under construction! */}
+                    {/* <Route exact path="/blog" component={UnderConstruction}/> */}
+
+                    {/* Site is not under construction */}
+                    <Route exact path="/" component={Home}/>
+                    <Route exact path="/projects" component={Projects}/>
+                    <Route exact path="/blog" component={Blog}/>
+                    <Route exact path="/contact" component={Contact}/>
+                </Switch>
+            </Router>
+        );
+    }
+  
 }
 
 export default App;

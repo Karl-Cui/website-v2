@@ -7,17 +7,19 @@ import '../page.css';
 import foobar from './posts/foobar.js';
 
 
-function Blog() {
+class Blog extends React.Component {
 
-    return (
-        <div>
-            <NavBar/>
+    render() {
+        return (
+            <div>
+                <NavBar/>
 
-            <div class="content">
-                <Markdown source={foobar}/>
+                <div class="content">
+                    <Markdown source={foobar}/>
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
 
 export default Blog;

@@ -1,8 +1,6 @@
 const foobar = `
 
-# title
-
-test __bold test__
+# My Experience With Google Foobar
 
 `
 
