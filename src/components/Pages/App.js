@@ -6,7 +6,11 @@ import Home from './Home/Home';
 import Projects from './Projects/Projects';
 import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
+
+// Other
 import UnderConstruction from './UnderConstruction/UnderConstruction';
+import FoobarReferral from './FoobarReferral/FoobarReferral';
+
 
 class App extends React.Component {
 
@@ -22,6 +26,9 @@ class App extends React.Component {
                     <Route exact path="/projects" component={Projects}/>
                     <Route exact path="/blog" component={Blog}/>
                     <Route exact path="/contact" component={Contact}/>
+
+                    {/* Other stuff */}
+                    <Route exact path="/foobar_referral" component={FoobarReferral}/>
                 </Switch>
             </Router>
         );
