@@ -19,7 +19,15 @@
 
 #blogPosts {
     float: right;
-    width: calc(100% - 250px);
+    width: calc(90% - 150px);
 }
 
-/* TODO: handle small screens */
+@media only screen and (max-width: 1024px) {
+    #sidebar {
+        display: none;
+    }
+
+    #blogPosts {
+        width: 100%;
+    }
+}

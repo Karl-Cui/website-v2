@@ -17,6 +17,7 @@ class Blog extends React.Component {
     }
 
     render() {
+        // navigation sidebar
         const sidebar = (
             <ul>
                 {this.posts.map((post) =>
@@ -30,9 +31,10 @@ class Blog extends React.Component {
             </ul>
         );
 
+        // actual blog posts content
         const content = this.posts.map((post) =>
             <section id={post.id}>
-                <div key={post.id}>
+                <div class="blogPost" key={post.id}>
                     <h2>{post.title}</h2>
                     <p>{post.date}</p>
                     <Markdown source={post.content}/>
