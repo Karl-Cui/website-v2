@@ -8,7 +8,7 @@ import Blog from './Blog/Blog';
 import Contact from './Contact/Contact';
 
 // Other
-import UnderConstruction from './UnderConstruction/UnderConstruction';
+// import UnderConstruction from './UnderConstruction/UnderConstruction';
 import FoobarReferral from './FoobarReferral/FoobarReferral';
 
 

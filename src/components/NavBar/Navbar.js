@@ -7,12 +7,12 @@ class NavBar extends React.Component {
     render() {
         return (
             <div>
-                <div class="navbar">
-                    <div class="navbar-div">
+                <div className="navbar">
+                    <div className="navbar-div">
     
-                            <div class="logo-wrapper">
-                                <Link exact to="/" style={{textDecoration: 'none'}}>
-                                    <div class="logo">karl cui</div>
+                            <div className="logo-wrapper">
+                                <Link exact="true" to="/" style={{textDecoration: 'none'}}>
+                                    <div className="logo">karl cui</div>
                                 </Link>
                             </div>
     
@@ -21,21 +21,21 @@ class NavBar extends React.Component {
                             <div/>
                             <div/>
     
-                            <div class="link-wrapper">
-                                <Link exact to="/projects" style={{textDecoration: 'none'}}>
-                                    <div class="link">projects</div>
+                            <div className="link-wrapper">
+                                <Link exact="true" to="/projects" style={{textDecoration: 'none'}}>
+                                    <div className="link">projects</div>
                                 </Link>
                             </div>
     
-                            <div class="link-wrapper">
-                                <Link exact to="/blog" style={{textDecoration: 'none'}}>
-                                    <div class="link">blog</div>
+                            <div className="link-wrapper">
+                                <Link exact="true" to="/blog" style={{textDecoration: 'none'}}>
+                                    <div className="link">blog</div>
                                 </Link>
                             </div>
     
-                            <div class="link-wrapper">
-                                <Link exact to="/contact" style={{textDecoration: 'none'}}>
-                                    <div class="link">contact</div>
+                            <div className="link-wrapper">
+                                <Link exact="true" to="/contact" style={{textDecoration: 'none'}}>
+                                    <div className="link">contact</div>
                                 </Link>
                             </div>
     
@@ -43,7 +43,7 @@ class NavBar extends React.Component {
                 </div>
     
                 {/* Need this here since navbar is fixed */}
-                <div class="navbar-space"/>
+                <div className="navbar-space"/>
             </div>
         );
 

@@ -7,7 +7,10 @@ import '../page.css';
 
 // blog posts
 import foobar from './posts/foobar.js';
-import putnam from './posts/putnam.js';
+
+//
+// TODO: scale images with screen size
+//
 
 
 class Blog extends React.Component {
@@ -22,7 +25,7 @@ class Blog extends React.Component {
 
     // foobar referral
     foobar_move() {
-        if (this.state.foobar_float == "left") {
+        if (this.state.foobar_float === "left") {
             this.setState({ foobar_float: "right"});
         } else {
             this.setState({ foobar_float: "left"});
@@ -30,14 +33,13 @@ class Blog extends React.Component {
     }
 
     foobar_referral(post) {
-        if (post.id == "foobar") {
+        if (post.id === "foobar") {
             return (
-                <Link exact to="/foobar_referral" style={{textDecoration: 'none'}}>
-                    <a 
-                    style={{float: this.state.foobar_float}} 
-                    onMouseOver={() => this.foobar_move()}
-
-                    >Here.</a>
+                <Link exact="true" to="/foobar_referral" style={{textDecoration: 'none'}}>
+                    <p
+                        style={{float: this.state.foobar_float}} 
+                        onMouseOver={() => this.foobar_move()}
+                    >Here.</p>
                 </Link>
             )
         }
@@ -48,7 +50,7 @@ class Blog extends React.Component {
         const sidebar = (
             <ul>
                 {this.posts.map((post) =>
-                    <a href={"#" + post.id}>
+                    <a href={"#" + post.id} key={post.id}>
                         <li key={post.id}>
                             {post.title_short}
                         </li>
@@ -60,15 +62,13 @@ class Blog extends React.Component {
 
         // actual blog posts content
         const content = this.posts.map((post) =>
-            <section id={post.id}>
-                <div class="blogPost" key={post.id}>
-                    <h1>{post.title}</h1>
-                    <p>{post.date}</p>
-                    <Markdown source={post.content}/>
+            <section id={post.id} className="blogPost" key={post.id}>
+                <h1>{post.title}</h1>
+                <p>{post.date}</p>
+                <Markdown source={post.content}/>
 
-                    {/* a special something if the post is the Foobar Challenge... */}
-                    {this.foobar_referral(post)}
-                </div>
+                {/* a special something if the post is the Foobar Challenge... */}
+                {this.foobar_referral(post)}
             </section>
         );
 
@@ -76,7 +76,7 @@ class Blog extends React.Component {
             <div>
                 <NavBar/>
 
-                <div class="content">
+                <div className="content">
                     <div id="sidebar">
                         {sidebar}
                     </div>
