@@ -15,7 +15,7 @@ class Home extends React.Component {
                 {/* Self intro */}
                 <div class="content">
                     <p>Hello.</p>
-                    <p>I am a Canadian software engineer with an odd sense of humor who likes to build cool things. I am an avid fan of short scary stories, a casual good-but-not-amazing gamer, a tormented perfectionist, and a coffee and chess addict.</p>
+                    <p>I am a Canadian software engineer with an odd sense of humor who likes to build cool things. I am an avid fan of short scary stories, a casual good-but-not-amazing gamer, and a coffee and chess addict.</p>
                     <p>Welcome to my site.</p>
                 </div>
     
