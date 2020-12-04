@@ -25,7 +25,7 @@ I'll give a really brief rundown:
 
 The problems themselves are pretty interesting--they often require you to work out something logically first, then implement it in code. What I mean by this is, the harder problems do not necessarily need more code, but may need some more thought and problem-solving beforehand. Remember, Google is your friend!
 
-It's time to infiltrate and take town project LAMBCHOP...
+It's time to infiltrate and take down project LAMBCHOP...
 
 ![flavour text](/blog-posts/foobar/flavour_text.png)
 
