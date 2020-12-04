@@ -7,7 +7,7 @@ const foobar = {
 
 ![Foobar screen](/blog-posts/foobar/logo.png)
 
-My friend sent a link to Google's Foobar challenge a small while back. I [first heard about it](https://medium.com/chingu/my-experience-with-the-google-foobar-challenge-and-tips-on-what-to-do-if-you-get-it-9848d31d3d20) about a year ago and have been wanting a crack at it for a long time now.
+My friend sent a link to [Google's Foobar challenge](https://foobar.withgoogle.com/) a small while back. I [first heard about it](https://medium.com/chingu/my-experience-with-the-google-foobar-challenge-and-tips-on-what-to-do-if-you-get-it-9848d31d3d20) about a year ago and have been wanting a crack at it for a long time now.
 
 ## What is the Foobar Challenge?
 
